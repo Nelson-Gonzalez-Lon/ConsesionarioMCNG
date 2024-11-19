@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.49076517150395776" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="381.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Text layoutX="173.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar Informe">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="78.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Código Informe:">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtCodigoinf" layoutX="200.0" layoutY="73.0" />
+            <Button fx:id="btnImprimir" layoutX="187.0" layoutY="132.0" mnemonicParsing="false" text="Imprimir">
+               <font>
+                  <Font name="Bell MT" size="12.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <TableView fx:id="TablaInforme" layoutX="107.0" layoutY="11.0" prefHeight="169.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="columnaCodigo" prefWidth="101.0" text="Código" />
+                  <TableColumn fx:id="columnaFecha" prefWidth="98.0" text="Fecha" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

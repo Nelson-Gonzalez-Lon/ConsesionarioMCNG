@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="100.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrar Empleado">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre usuario:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="55.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="25.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmar contraseña:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pregunta seguridad:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Respuesta:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmar respuesta:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnCrearUsua" layoutX="121.0" layoutY="357.0" mnemonicParsing="false" text="Registrar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtNomUsua" layoutX="141.0" layoutY="74.0" />
+      <TextField fx:id="txtContraseña" layoutX="164.0" layoutY="117.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="txtConfirmContraseña" layoutX="160.0" layoutY="166.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="txtPregSeg" layoutX="160.0" layoutY="207.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="txtRespuesta" layoutX="156.0" layoutY="243.0" prefHeight="25.0" prefWidth="126.0" />
+      <TextField fx:id="txtConfirmResp" layoutX="160.0" layoutY="278.0" prefHeight="25.0" prefWidth="126.0" />
+      <TextField fx:id="txtCorreo" layoutX="141.0" layoutY="309.0" />
+   </children>
+</Pane>

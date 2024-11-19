@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="318.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="210.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro Cliente">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N° Identificación">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtNombre" layoutX="241.0" layoutY="106.0" />
+      <TextField fx:id="txtID" layoutX="241.0" layoutY="150.0" />
+      <Button fx:id="btnGuardar" layoutX="260.0" layoutY="271.0" mnemonicParsing="false" text="Guardar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegresar" layoutX="165.0" layoutY="271.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtCorreo" layoutX="241.0" layoutY="195.0" />
+   </children>
+</Pane>

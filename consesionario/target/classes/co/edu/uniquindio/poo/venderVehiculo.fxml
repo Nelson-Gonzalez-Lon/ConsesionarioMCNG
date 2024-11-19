@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="220.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Venta Vehículo">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Código Vehiculo Vendido:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Identificación Cliente Compra:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="104.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor Venta:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Venta:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtCodVehiVendido" layoutX="280.0" layoutY="106.0" />
+      <TextField fx:id="txtIDClienteCompra" layoutX="280.0" layoutY="150.0" />
+      <TextField fx:id="txtValorVenta" layoutX="280.0" layoutY="196.0" />
+      <Button fx:id="btnGuardar" layoutX="296.0" layoutY="298.0" mnemonicParsing="false" text="Guardar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegresar" layoutX="190.0" layoutY="298.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="DatePickFechaVenta" layoutX="267.0" layoutY="241.0" />
+   </children>
+</Pane>

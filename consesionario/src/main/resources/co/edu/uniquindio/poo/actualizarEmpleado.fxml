@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="151.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actualizar Empleado">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="82.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Identificación:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnRegresar" layoutX="136.0" layoutY="180.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEnviar" layoutX="215.0" layoutY="180.0" mnemonicParsing="false" text="Enviar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtID" layoutX="183.0" layoutY="94.0" />
+   </children>
+</Pane>
